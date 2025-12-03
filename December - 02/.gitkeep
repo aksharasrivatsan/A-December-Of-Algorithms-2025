@@ -1,1 +1,7 @@
+num = int(input("Enter the number:"))
 
+for i in range (1, num+1):
+    print(i, end= " ")
+    print(oct(i)[2:], end= " ")
+    print(hex(i)[2:], end = " ")
+    print(bin(i))
